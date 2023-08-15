@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+  <section class="main">
+    <section class="inputs">
+      <div class="day input-header">
+        <h5>DAY</h5>
+        <input id="day" class="input" type="text">
+      </div>
+      <div class="month input-header">
+        <h5>MONTH</h5>
+        <input id="month" class="input" type="text">
+      </div>
+      <div class="year input-header">
+        <h5>YEAR</h5>
+        <input id="year" class="input" type="text">
+      </div>
+    </section>
+    <div class="circle" onclick="calculate()">
+      <img src = "assets/images/icon-arrow.svg" alt="My Happy SVG"/>
+    </div>
+    <div class="outputs">
+      <p class="output-year output">...</p>
+      <p>years</p>
+    </div>
+    <div class="outputs">
+      <p class="output-month output">...</p>
+      <p>months</p>
+    </div>
+    <div class="outputs">
+      <p class="output-day output">...</p>
+      <p>days</p>
+    </div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
